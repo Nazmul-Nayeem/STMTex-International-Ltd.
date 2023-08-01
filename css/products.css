@@ -1,0 +1,408 @@
+*{
+	margin:0; 
+	padding:0; 
+	box-sizing:border-box;
+    scroll-behavior: smooth;
+	font-family: Montserrat;
+}
+.wrapper{
+	width:100%;	margin:auto; background-color:none;
+}
+	
+.homep{
+	width:100%;  min-height:19.5cm; background-image:url(../img/ourproducts.jpg); background-size: cover; background-repeat: no-repeat; /*background-position: center;*/
+}
+
+.menu{
+	width:100%;	min-height:3cm;	background-color:#f4f4f4; position:fixed; z-index:3; display:flex; justify-content:space-between;
+}
+.menu ul{
+	width:50%; float:right; list-style-type: none;	display:flex; justify-content:space-between; margin-right:6%;
+}
+.menu ul li a:hover {
+    color:grey;
+}
+.homepic img{
+	width:4.5cm;
+	height:auto;
+}
+.homepic{
+	display:flex;
+	float:left;
+	width:6%;
+	margin-top:1.7cm;
+	margin-left:6%;	
+}
+#click{
+	display:none;
+}
+.menu ul li{
+	margin-top: 1.6cm;
+    height: 1.4cm;
+}
+#navgray{
+	background: #d5d5d5;
+}
+	
+.menu ul li a{
+	text-decoration: none; color:black; font-family:times; font-size: 13pt;	font-weight:bold; line-height:1.4cm;
+}
+
+.menu i {
+	display:none;
+}
+#gap{
+	width:100%;	min-height:10cm; background-color:none;
+}
+
+
+#unithedding{
+	width:20%; margin: auto; background-color:rgb(122 122 122 / 70%);
+	text-align: center; border: 2pt solid #189ad5;
+}
+	
+
+#stm {
+    font-family: times;
+    font-size: 30pt;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    line-height: 2cm;
+	
+}
+
+.container{
+	width:25cm;
+	margin:2cm auto 2cm auto;
+}
+.itmeholder{
+	width:100%;
+	align-items:center;
+}
+
+.items{
+	background:lightgray;
+	line-height: .8cm;
+	padding: 3mm;
+	font-size: 10pt;
+	margin:0cm 0cm 0cm .2cm;
+}
+.items p{
+	display:inline-block;
+	margin-bottom: .5cm;
+}
+.imagecontainer{
+	width:100%;
+	display:flex;
+	justify-content: space-between;
+	margin: .5cm auto 0cm auto;
+	Position:relative;
+}
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+}
+.imagecontchild{
+	margin: 0cm 0.1cm;
+	width:33.33%;
+	max-height:28cm;
+	overflow:hidden;
+	display:flex;
+	flex-direction:column;
+}
+
+.imagecontchild img{
+	width:100%;
+	margin:0cm 0cm .2cm 0cm;
+}
+
+.backgroundcolorblack{
+    background-color:black;
+}
+.textcolorwhite{
+	color:white;
+}
+.contactsec{
+	position:relative;
+	min-height:7cm; 
+}
+	
+.contact_img{
+  height:100%;
+  width: 100%;
+  opacity: 0.3;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-image:url(../img/customerservicepic.jpg); background-size: cover; background-repeat: no-repeat; background-position: center;  
+}
+.contact{
+    width:100%; text-align:center; padding-top: 1.4cm; color:#189ad5; display:flex; justify-content:space-around; position:relative; overflow:hidden;
+}
+.contactchild h2{	
+	margin-bottom:5mm;
+	font-size:20pt;
+}
+.contactchild p{	
+	font-size:13pt;
+}
+.contactchild{
+	width:300px;
+	margin:auto;
+}
+
+.copyrightborder{
+	background: #2babe2;
+	width: 100%;
+	height: .5pt;
+	margin: 1.3cm auto .1cm auto;
+	position:relative;
+}	
+.copyrighthedding{
+	text-align: center;
+	font-size: 10pt;
+	position:relative;
+	}
+	
+/*from w3////////////////////////////*/	
+
+
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+}
+
+.mySlides {
+  display: none;
+}
+
+	
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color:white;
+}
+
+.dot {
+  cursor: pointer;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #26abe2;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+@media only screen and (max-width:1200px){
+	/*body{
+	background-color:gray;
+	}*/
+	.menu ul {
+    width: 60%;
+	}
+	#stm {
+    font-size: 18pt;
+	line-height:1.5cm;
+	}
+	#unithedding {
+    width: 5cm;
+	}
+	
+	.container{
+	width:85%;
+	}
+	
+
+  	.contact{
+    flex-direction:column;
+	}
+	.contactchild{
+	padding-bottom:2cm;
+	}
+	.unitbody {
+    margin-top: 0cm;
+	}
+	.unitbodypic{
+    display: none;
+    }
+	.unitbodypic2{
+    width: 100%;
+    }
+	.unitheadp{
+	font-size: 10pt;
+	}
+	.unitheadname{
+	font-size:32pt;
+	}
+
+
+
+}
+
+@media only screen and (max-width:992px){
+/*	body{
+	background-color:green;
+	}	*/
+	.menu ul {
+    width: 65%;
+	margin-right:3%;
+	}
+
+	.menu ul li a {
+    font-size: 11pt;
+	}
+
+	#welcome {
+    font-size: 11.8pt;
+    }
+	.unitheadname{
+    /*font-size: 25pt;*/
+    text-align: left;
+    padding: 0;
+	}
+	
+
+	
+}
+@media only screen and (max-width:770px){
+	/*body{
+	background-color:blue;
+	}*/
+	.menu ul {
+    width: 74%;
+	margin-right: 5%;
+	}
+	.homepic {
+    margin-left: 5%;
+	}
+	.menu ul li a {
+    font-size: 10pt;
+	}
+	
+		.menu ul{
+	position:fixed;
+	top:101px;
+	right:-100%;
+	margin-right:0;
+	padding-left:5mm;
+	background-color:#f4f4f4;
+	opacity:0.90;
+	height:100vh;
+	width:60%;
+	display:block;
+	transition: all 0.3s ease;
+	}
+	#click:checked ~ ul{
+		right:0px;
+	}
+	
+	.menu ul li{
+	margin-top:1cm;
+	text-align:right;
+	padding-right:10%;
+	}
+	.menu-btn{
+		padding: 1.85cm 5% 0cm 0cm;
+	}
+	.menu i {
+	font-size:19pt;
+	display:block;
+	}
+	.unitheadname{
+    font-size: 25pt;
+	}
+	.unitheadp{
+	font-size:9pt;
+	padding-left:0;
+	}
+	/*.imagecontainer{
+	flex-direction:column;
+	}
+	.imagecontchild{
+	margin: auto;
+	width:60%;
+	}*/
+	
+	.items {
+    line-height: 0.2cm;
+    padding: 1.5mm;
+    font-size: 9pt;
+    margin: 0cm 0cm 0cm 0.05cm;
+}
+
+	
+	
+	
+	
+
+}
+
+@media only screen and (max-width:600px){
+	/*body{
+	background-color:tomato;
+	}*/
+	#stm {
+    font-size: 12.5pt;
+	line-height: 1.1cm;
+	}
+	#unithedding {
+    width: 3cm;
+	}
+	
+	.unitendline {
+    height: 2.5pt;
+	}
+	.contactchild h2{	
+	font-size:15pt;
+    }
+    .contactchild p{	
+	font-size:10pt;
+    }
+
+
+}
+@media only screen and (max-width:400px){
+	.items {
+    line-height: .1cm;
+    padding: 1.5mm;
+    font-size: 7pt;
+    margin: 0cm 0cm 0cm 0.02cm;
+}
+
+
+
+}
