@@ -14,7 +14,7 @@
 }
 
 .menu{
-	width:100%;	min-height:3cm;	background-color:#f4f4f4; position:fixed; z-index:3; display:flex; justify-content:space-between;
+	width:100%;	min-height:3cm; position:fixed; z-index:3; display:flex; justify-content:space-between;
 }
 .menu ul{
 	width:50%; float:right; list-style-type: none;	display:flex; justify-content:space-between; margin-right:6%;
