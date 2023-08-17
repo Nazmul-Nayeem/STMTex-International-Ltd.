@@ -55,15 +55,15 @@
 }
 
 #unithedding{
-	width:100%; margin: auto; background-color:rgb(122 122 122 / 70%);
-	text-align: center; border: 2pt solid #189ad5;
+	width:100%; margin: auto; /*background-color:rgb(122 122 122 / 70%);*/
+	text-align: center;/* border: 2pt solid #189ad5;*/
 }
 	
 
 #stm {
     font-family: times;
     font-size: 25pt;
-    color: rgb(255, 255, 255);
+    color: Black;
     display: inline-block;
     line-height: 2cm;	
 }
