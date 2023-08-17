@@ -1,0 +1,286 @@
+*{
+	margin:0; 
+	padding:0; 
+	box-sizing:border-box;
+    scroll-behavior: smooth;
+	font-family: Montserrat;
+}
+.wrapper{
+	width:100%;	margin:auto; background-color:none;
+}
+	
+.homep{
+	width:100%;  min-height:19.5cm; background-image:url(../img/certificatepic.jpg); background-size: cover; background-repeat: no-repeat; background-position: center;
+}
+
+.menu{
+	width:100%;	min-height:3cm;	background-color:#f4f4f4; position:fixed; z-index:3; display:flex; justify-content:space-between;
+}
+.menu ul{
+	width:50%; float:right; list-style-type: none;	display:flex; justify-content:space-between; margin-right:6%;
+}
+.menu ul li a:hover {
+    color:grey;
+}
+.homepic img{
+	width:4.5cm;
+	height:auto;
+}
+.homepic{
+	display:flex;
+	float:left;
+	width:6%;
+	margin-top:1.7cm;
+	margin-left:6%;	
+}
+#click{
+	display:none;
+}
+.menu ul li{
+	margin-top: 1.6cm;
+    height: 1.4cm;
+}
+#navgray{
+	background: #d5d5d5;
+}
+.menu ul li a{
+	text-decoration: none; color:black; font-family:times; font-size: 13pt;	font-weight:bold;line-height:1.4cm;
+}
+.menu ul li a:active{
+	color:blue;
+}
+.menu i {
+	display:none;
+}
+#gap{
+	width:100%;	min-height:10cm; background-color:none;
+}
+
+#unithedding{
+	width:7cm; margin: auto; background-color:rgb(122 122 122 / 70%);
+	text-align: center; border: 2pt solid #189ad5;
+}
+	
+
+#stm {
+    font-family: times;
+    font-size: 30pt;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    line-height: 2cm;	
+}
+.certificate{
+	width:14cm;
+	margin:.5cm auto;
+	padding:.5cm;
+	background: #e6e7e8;
+}
+.certificate img{
+	width:100%;
+}
+
+
+.unitendline{
+	background: #2babe2;
+	width: 5cm;
+	height: 4pt;
+	margin: 3cm auto 0cm auto;
+}
+.unitmidline{
+	margin: 1cm auto 0cm auto;
+}
+.gap{
+	height:3cm;
+	width: 100%;
+}
+	
+.end{
+	width: 100%;
+}
+
+
+.backgroundcolorblack{
+    background-color:black;
+}
+.textcolorwhite{
+	color:white;
+}
+.contactsec{
+	position:relative;
+	min-height:7cm; 
+}
+	
+.contact_img{
+  height:100%;
+  width: 100%;
+  opacity: 0.3;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-image:url(../img/customerservicepic.jpg); background-size: cover; background-repeat: no-repeat; background-position: center;  
+}
+.contact{
+    width:100%; text-align:center; padding-top: 1.4cm; color:#189ad5; display:flex; justify-content:space-around; position:relative; overflow:hidden;
+}
+.contactchild h2{	
+	margin-bottom:5mm;
+	font-size:20pt;
+}
+.contactchild p{	
+	font-size:13pt;
+}
+.contactchild{
+	width:300px;
+	margin:auto;
+}
+
+.copyrightborder{
+	background: #2babe2;
+	width: 100%;
+	height: .5pt;
+	margin: 1.3cm auto .1cm auto;
+	position:relative;
+}	
+.copyrighthedding{
+	text-align: center;
+	font-size: 10pt;
+	position:relative;
+	}
+
+@media only screen and (max-width:1200px){
+	/*body{
+	background-color:gray;
+	}*/
+	.menu ul {
+    width: 60%;
+	}
+
+    #stm {
+    font-size: 18pt;
+	line-height:1.5cm;
+	}
+	#unithedding {
+    width: 5cm;
+	}
+
+	.contact{
+    flex-direction:column;
+	}
+	.contactchild{
+	padding-bottom:2cm;
+	}
+	.unitbodypic{
+    display: none;
+    }
+	.unitbodypic2{
+    width: 100%;
+    }
+	.unitheadp{
+	font-size: 10pt;
+	}
+	.unitheadname{
+	font-size:32pt;
+	}
+
+}
+
+@media only screen and (max-width:992px){
+	/*body{
+	background-color:green;
+	}*/	
+	.menu ul {
+    width: 65%;
+	margin-right:3%;
+	}
+
+	.menu ul li a {
+    font-size: 11pt;
+	}
+	#welcome {
+    font-size: 11.8pt;
+    }
+	
+}
+@media only screen and (max-width:770px){
+	/*body{
+	background-color:blue;
+	}*/
+	.menu ul {
+    width: 74%;
+	margin-right: 5%;
+	}
+	.homepic {
+    margin-left: 5%;
+	}
+	.menu ul li a {
+    font-size: 10pt;
+	}
+	
+	
+	.menu ul{
+	position:fixed;
+	top:101px;
+	right:-100%;
+	margin-right:0;
+	padding-left:5mm;
+	background-color:#f4f4f4;
+	opacity:0.90;
+	height:100vh;
+	width:60%;
+	display:block;
+	transition: all 0.3s ease;
+	}
+	#click:checked ~ ul{
+		right:0px;
+	}
+	
+	.menu ul li{
+	margin-top:1cm;
+	text-align:right;
+	padding-right:10%;
+	}
+	.menu-btn{
+		padding: 1.85cm 5% 0cm 0cm;
+	}
+	.menu i {
+	font-size:19pt;
+	display:block;
+	}
+	
+
+}
+
+@media only screen and (max-width:600px){
+	/*body{
+	background-color:tomato;
+	}*/
+		#welcome {
+    font-size: 12.5pt;
+	}
+	#certified{
+    font-size: 13pt;
+    line-height: 1.1cm;
+	margin-top:13.5cm;	
+	}
+	.certificate{
+	width:90%;
+	}
+	
+	#stm {
+    font-size: 12.5pt;
+	line-height: 1.1cm;
+	}
+	#unithedding {
+    width: 3cm;
+	}
+	.contactchild h2{	
+	font-size:15pt;
+    }
+    .contactchild p{	
+	font-size:10pt;
+    }
+
+}
+@media only screen and (max-width:395px){
+
+}
