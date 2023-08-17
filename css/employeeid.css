@@ -55,14 +55,14 @@
 }
 
 #unithedding{
-	width:7cm; margin: auto; background-color:rgb(122 122 122 / 70%);
+	width:100%; margin: auto; background-color:rgb(122 122 122 / 70%);
 	text-align: center; border: 2pt solid #189ad5;
 }
 	
 
 #stm {
     font-family: times;
-    font-size: 30pt;
+    font-size: 25pt;
     color: rgb(255, 255, 255);
     display: inline-block;
     line-height: 2cm;	
@@ -82,7 +82,7 @@
 	background: #2babe2;
 	width: 5cm;
 	height: 4pt;
-	margin: 2cm auto 0cm auto;
+	margin: 1cm auto 0cm auto;
 }
 .unitmidline{
 	margin: 1cm auto 0cm auto;
@@ -157,9 +157,9 @@
     font-size: 18pt;
 	line-height:1.5cm;
 	}
-	#unithedding {
+	/*#unithedding {
     width: 5cm;
-	}
+	}*/
 
 	.contact{
     flex-direction:column;
@@ -268,9 +268,9 @@
     font-size: 12.5pt;
 	line-height: 1.1cm;
 	}
-	#unithedding {
+	/*#unithedding {
     width: 3cm;
-	}
+	}*/
 	.contactchild h2{	
 	font-size:15pt;
     }
