@@ -14,7 +14,7 @@
 }
 
 .menu{
-	width:100%;	min-height:3cm; position:fixed; z-index:3; display:flex; justify-content:space-between;
+	width:100%; background-color: #f4f4f4; min-height:3cm; position:fixed; z-index:3; display:flex; justify-content:space-between;
 }
 .menu ul{
 	width:50%; float:right; list-style-type: none;	display:flex; justify-content:space-between; margin-right:6%;
@@ -40,9 +40,7 @@
 	margin-top: 1.6cm;
     height: 1.4cm;
 }
-#navgray{
-	background: #d5d5d5;
-}
+
 .menu ul li a{
 	text-decoration: none; color:black; font-family:times; font-size: 13pt;	font-weight:bold;line-height:1.4cm;
 }
