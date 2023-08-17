@@ -51,7 +51,7 @@
 	display:none;
 }
 #gap{
-	width:100%;	min-height:4cm; background-color:none;
+	width:100%;	min-height:5cm; background-color:none;
 }
 
 #unithedding{
@@ -82,7 +82,7 @@
 	background: #2babe2;
 	width: 5cm;
 	height: 4pt;
-	margin: 3cm auto 0cm auto;
+	margin: 2cm auto 0cm auto;
 }
 .unitmidline{
 	margin: 1cm auto 0cm auto;
