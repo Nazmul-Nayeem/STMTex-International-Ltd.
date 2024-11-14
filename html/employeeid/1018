@@ -1,0 +1,158 @@
+<!DOCTYPE html>   
+<html lang="en-US">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title> STMTex International Limited </title>
+<link rel="icon" href="../../img/logostm.png" type="image/gip/png" >
+<link rel="stylesheet" href="../../css/employeeid.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<style>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+</style>
+	
+</head>
+
+<body>
+<section class="wrapper">
+    <div class="homep">
+		 
+		<div class="menu">
+		 
+		  <div class="homepic"><a href="https://stmtex.com/"><img src="../../img/logostms.png"> </a></div>
+		     <input type="checkbox" id="click">
+			 <label for="click" class="menu-btn">
+			
+		       		  <i class="fa fa-bars"></i>
+		      </label>
+		            <ul>
+			        <li> <a href="https://stmtex.com/html/products.html"> OUR-PRODUCTS </a> </li>
+				<li> <a href="https://stmtex.com/html/units.html"> UNITS </a> </li>
+				<li> <a href="https://stmtex.com/html/certificate.html"> CERTIFICATES </a> </li>
+				<li> <a href="https://stmtex.com/html/events.html#contact"> EVENTS </a> </li>
+				<li> <a href="#contact"> CONTACT </a> </li>
+		           </ul>
+		</div>
+	    
+		<div id="gap"> gap </div>		
+		<div style="background:none; border:none;" id="unithedding">
+		
+		        <h1 id="stm" style="color:#00a586">From 02.11.2024 to Present</h1>
+				    
+		</div>
+	</div>
+	
+	<div class="unitendline"> </div>
+	
+	<div style="background:none;" class="certificate">
+	    <div class="card">
+              <img src="../../img/moovin.jpg" alt="moovin" style="width:100%">
+              <h1>Saifur Rahman Mubin</h1>
+              <p class="title">Executive Officer (CS Department)</p>
+             <br/>
+		    <p>ID: 1018</p>
+		    <p>Joining Date: 02.11.2024</p>
+                   <div style="margin: 24px 0;">
+                        
+                  </div>
+              <p><button>STMTex International Ltd.</button></p>
+          </div>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<div class="gap">  </div>	
+		 
+			
+	
+	
+	
+
+
+	
+           <div  class="contactsec backgroundcolorblack">
+			
+			    <div class="contact_img">  </div>
+			       
+				   
+				<div class="contact">	
+				
+				   
+				   
+				   <div class="cor-off contactchild"> 
+				      <h2> Corporate Office</h2>
+					  <p>House-744 & 746, Road-10, Avenue-4, DOHS Mirpur, Dhaka 1216, Bangladesh.</br><b>E-Mail:</b> tonoy@stmtex.com</p>
+				   </div> 
+				   
+				   <div class="fac-add contactchild"> 
+				      <h2> Factory Address</h2>
+					  <p>128/D, Rajabari, Uttarkhan, Dhaka 1230, Bangladesh.</br><b>E-Mail:</b> stmtexinternational@gmail.com</p>
+				   </div> 
+				   
+				    <div class="phone contactchild" id="contact"> 
+					  <h2> Contact</h2>
+					     <p>+880 244806654
+						 <br/>+880 1768117762
+						    <br/> <a href="../employeeid.html"> Employee ID </a>
+					     </p>
+					  
+				   </div>
+				</div>
+				   
+				   <div class="copyrightborder"> </div>
+	               <p class="copyrighthedding textcolorwhite"> Copyright © 2023 STMTEX INTERNATIONAL LTD.</p>
+				
+            </div>				
+				
+       
+	
+	
+
+</section>
+
+</body>
+</html>
